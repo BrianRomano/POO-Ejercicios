@@ -1,9 +1,12 @@
 package calificaciones;
 
 public class LibroCalificaciones {
-    public String nombreCurso = "1ero A";
+    private String nombreCurso;
 
-    public void mostrarNombre(){
-        System.out.println(nombreCurso);
+    public void setNombreCurso(String nombreCurso){
+        this.nombreCurso = nombreCurso;
+    }
+    public String getNombreCurso(){
+        return nombreCurso;
     }
 }

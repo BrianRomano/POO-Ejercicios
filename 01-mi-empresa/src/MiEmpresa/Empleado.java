@@ -6,19 +6,33 @@ public class Empleado {
     private int nLegajo;
     private String email;
 
-    public void setNombre(String nombreE1){
-        nombre = nombreE1;
+    public void setNombre(String nombre){
+        this.nombre = nombre;
     }
-    public void setSueldo(double sueldoE1){
-        sueldo = sueldoE1;
+    public String getNombre(){
+        return nombre;
     }
-    public void setLegajo(int legajoE1){
-        nLegajo = legajoE1;
+    public void setSueldo(double sueldo){
+        this.sueldo = sueldo;
     }
-    public void setEmail(String emailE1){
-        email = emailE1;
+    public double getSueldo(){
+        return sueldo;
     }
+    public void setLegajo(int nLegajo){
+        this.nLegajo = nLegajo;
+    }
+    public int getLegajo(){
+        return nLegajo;
+    }
+    public void setEmail(String email){
+        this.email = email;
+    }
+    public String getEmail(){
+        return email;
+    }
+    /*
     public void mostrarDatos(){
         System.out.println("Nombre: "+nombre+"\nLegajo: "+nLegajo+"\nSueldo: "+sueldo+"\nEmail: "+email);
     }
+    */
 }
