@@ -30,9 +30,8 @@ public class Empleado {
     public String getEmail(){
         return email;
     }
-    /*
+
     public void mostrarDatos(){
         System.out.println("Nombre: "+nombre+"\nLegajo: "+nLegajo+"\nSueldo: "+sueldo+"\nEmail: "+email);
     }
-    */
 }
