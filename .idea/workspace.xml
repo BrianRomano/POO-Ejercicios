@@ -20,22 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cbaa063-3914-4e7e-9c2f-da1977221f2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06-libro-calificaciones-2/06-libro-calificaciones-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-libro-calificaciones-2/src/libroCalificaciones/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-libro-calificaciones-2/src/libroCalificaciones/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-libro-calificaciones-2/src/libroCalificaciones/LibroCalificaciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-libro-calificaciones-2/src/libroCalificaciones/LibroCalificacionesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-direccion/07-direccion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-direccion/src/direccion/Direccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-direccion/src/direccion/DireccionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-direccion/src/direccion/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-libro-calificaciones/src/calificaciones/LibroCalificaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-libro-calificaciones/src/calificaciones/LibroCalificaciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-cuentas/cuentas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04-cuentas/04-cuentas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-calcular/calcular.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05-calcular/05-calcular.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-libro-calificaciones/calificaciones/LibroCalificaciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/02-libro-calificaciones/calificaciones/LibroCalificaciones.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-libro-calificaciones/calificaciones/PruebaLibroCalificaciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/02-libro-calificaciones/calificaciones/PruebaLibroCalificaciones.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-mi-empresa/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/01-mi-empresaa/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-mi-empresa/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/01-mi-empresaa/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-mi-empresa/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01-mi-empresaa/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-mi-empresa/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01-mi-empresaa/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-mi-empresa/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01-mi-empresaa/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-mi-empresa/01-mi-empresa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/01-mi-empresaa/01-mi-empresa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-mi-empresa/out/production/1. MiEmpresa/MiEmpresa/Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/01-mi-empresaa/out/production/1. MiEmpresa/MiEmpresa/Empleado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-mi-empresa/out/production/1. MiEmpresa/MiEmpresa/EmpleadoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/01-mi-empresaa/out/production/1. MiEmpresa/MiEmpresa/EmpleadoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-mi-empresa/src/MiEmpresa/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-mi-empresaa/src/MiEmpresa/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-mi-empresa/src/MiEmpresa/EmpleadoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-mi-empresaa/src/MiEmpresa/EmpleadoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
