@@ -4,9 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01-mi-empresa/01-mi-empresa.iml" filepath="$PROJECT_DIR$/01-mi-empresa/01-mi-empresa.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-libro-calificaciones/02-libro-calificaciones.iml" filepath="$PROJECT_DIR$/02-libro-calificaciones/02-libro-calificaciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-cuentas/04-cuentas.iml" filepath="$PROJECT_DIR$/04-cuentas/04-cuentas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-calcular/05-calcular.iml" filepath="$PROJECT_DIR$/05-calcular/05-calcular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-libro-calificaciones-2/06-libro-calificaciones-2.iml" filepath="$PROJECT_DIR$/06-libro-calificaciones-2/06-libro-calificaciones-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-direccion/07-direccion.iml" filepath="$PROJECT_DIR$/07-direccion/07-direccion.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Ejercicios.iml" filepath="$PROJECT_DIR$/.idea/Ejercicios.iml" />
-      <module fileurl="file://$PROJECT_DIR$/05-calcular/calcular.iml" filepath="$PROJECT_DIR$/05-calcular/calcular.iml" />
-      <module fileurl="file://$PROJECT_DIR$/04-cuentas/cuentas.iml" filepath="$PROJECT_DIR$/04-cuentas/cuentas.iml" />
     </modules>
   </component>
 </project>

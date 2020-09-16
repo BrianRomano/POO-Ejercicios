@@ -3,10 +3,12 @@ package calificaciones;
 public class LibroCalificaciones {
     private String nombreCurso;
 
-    public void setNombreCurso(String nombreCurso){
+    public void setNombreCurso(String nombreCurso) {
+
         this.nombreCurso = nombreCurso;
     }
-    public String getNombreCurso(){
+
+    public String getNombreCurso() {
         return nombreCurso;
     }
 }
