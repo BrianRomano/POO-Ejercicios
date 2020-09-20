@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/05-calcular/05-calcular.iml" filepath="$PROJECT_DIR$/05-calcular/05-calcular.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-libro-calificaciones-2/06-libro-calificaciones-2.iml" filepath="$PROJECT_DIR$/06-libro-calificaciones-2/06-libro-calificaciones-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-direccion/07-direccion.iml" filepath="$PROJECT_DIR$/07-direccion/07-direccion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-customer/08-customer.iml" filepath="$PROJECT_DIR$/08-customer/08-customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Ejercicios.iml" filepath="$PROJECT_DIR$/.idea/Ejercicios.iml" />
     </modules>
   </component>
