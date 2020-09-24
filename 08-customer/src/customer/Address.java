@@ -1,9 +1,10 @@
 package customer;
 
-public class Address {
-    private String nombre;
-    private int altura;
-    private String ciudad;
+public class Address { //Tipo de dato 'No primitivo'
+    private String nombre; //Tipo de dato 'No primitivo'
+    private int altura; //Tipo de dato 'Primitivo'
+    private String ciudad; //Tipo de dato 'No primitivo'
+    private int probando;
 
     public void setNombre(String nombre){
         this.nombre = nombre;
@@ -21,7 +22,7 @@ public class Address {
         this.ciudad = ciudad;
     }
 
-    public String toString() {
+    public String toString() { //Tipo de dato 'No primitivo'
         return "Address{" +
                 "nombre='" + nombre + '\'' +
                 ", altura=" + altura +

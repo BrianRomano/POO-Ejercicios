@@ -1,6 +1,6 @@
 package customer;
 
-public class CustomerTest {
+public class CustomerTest {  //Tipo de dato 'No primitivo'
     public static void main(String[] args) {
         Customer customerUno = new Customer();
         Address addressUno = new Address();

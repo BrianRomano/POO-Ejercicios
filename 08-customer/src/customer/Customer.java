@@ -1,13 +1,13 @@
 package customer;
 
-public class Customer {
-    private int customerId;
-    private String name;
-    private int phoneNumber;
-    private String emailAddress;
-    private char status;
-    private double totalPurchase;
-    private Address homeAddress;
+public class Customer { //Tipo de dato 'No primitivo'
+    private int customerId; //Tipo de dato 'Primitivo'
+    private String name; //Tipo de dato 'No primitivo'
+    private int phoneNumber; //Tipo de dato 'Primitivo'
+    private String emailAddress; //Tipo de dato 'No primitivo'
+    private char status; //Tipo de dato 'Primitivo'
+    private double totalPurchase; //Tipo de dato 'Primitivo'
+    private Address homeAddress; //Tipo de dato 'No primitivo'
 
     public void setCustomerId(int customerId) {
         this.customerId = customerId;
@@ -65,7 +65,7 @@ public class Customer {
         return homeAddress;
     }
 
-    public String toString() {
+    public String toString() { //Tipo de dato 'No primitivo'
         return "Customer{" +
                 "customerId=" + customerId +
                 ", name='" + name + '\'' +
