@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cbaa063-3914-4e7e-9c2f-da1977221f2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10-customer/10-customer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-customer/src/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-customer/src/customer/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-aritmetica/11-aritmetica.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-aritmetica/src/aritmetica/Aritmetica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-aritmetica/src/aritmetica/AritmeticaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-customer/src/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-customer/src/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-customer/src/customer/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-customer/src/customer/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +65,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.CustomerTest (1)">
+    <configuration name="AritmeticaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aritmetica.AritmeticaTest" />
+      <module name="11-aritmetica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aritmetica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="customer.CustomerTest" />
       <module name="10-customer" />
@@ -115,19 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibroCalificacionesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="libroCalificaciones.LibroCalificacionesTest" />
-      <module name="06-libro-calificaciones-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="libroCalificaciones.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrestamoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="biblioteca.PrestamoTest" />
       <module name="09-biblioteca" />
@@ -144,10 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CustomerTest (1)" />
+        <item itemvalue="Application.AritmeticaTest" />
         <item itemvalue="Application.PrestamoTest" />
         <item itemvalue="Application.CustomerTest" />
         <item itemvalue="Application.DireccionTest" />
-        <item itemvalue="Application.LibroCalificacionesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,10 +177,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="450" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1601946077026">
+    <state x="450" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1601949359939">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="450" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1601946077026" />
+    <state x="450" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1601949359939" />
     <state x="363" y="106" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600568336990">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -187,26 +189,30 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="462" y="111" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1599779313278" />
-    <state width="639" height="334" key="GridCell.Tab.0.bottom" timestamp="1601945826139">
+    <state width="1323" height="329" key="GridCell.Tab.0.bottom" timestamp="1601947985584">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="639" height="334" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1601945826139" />
-    <state width="639" height="334" key="GridCell.Tab.0.center" timestamp="1601945826138">
+    <state width="1323" height="329" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1601947985584" />
+    <state width="1323" height="329" key="GridCell.Tab.0.center" timestamp="1601947985584">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="639" height="334" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1601945826138" />
-    <state width="639" height="334" key="GridCell.Tab.0.left" timestamp="1601945826138">
+    <state width="1323" height="329" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1601947985584" />
+    <state width="1323" height="329" key="GridCell.Tab.0.left" timestamp="1601947985584">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="639" height="334" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1601945826138" />
-    <state width="639" height="334" key="GridCell.Tab.0.right" timestamp="1601945826138">
+    <state width="1323" height="329" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1601947985584" />
+    <state width="1323" height="329" key="GridCell.Tab.0.right" timestamp="1601947985584">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="639" height="334" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601945826138" />
-    <state x="110" y="0" key="new project wizard" timestamp="1601943184566">
+    <state width="1323" height="329" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601947985584" />
+    <state x="500" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601949168681">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="110" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1601943184566" />
+    <state x="500" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1601949168680" />
+    <state x="110" y="0" key="new project wizard" timestamp="1601947034536">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="110" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1601947034536" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1600218946737">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

@@ -4,8 +4,9 @@ public class CustomerTest {
     public static void main(String[] args) {
         Customer cust1, cust2;
 
-        cust1 = new Customer();
-        cust1.customerId = 123;
+        cust1 = new Customer(123, "Brian", "Romano");
+
+        /*cust1.customerId = 123;
         cust1.setName("Brian");
         cust1.setEmailAddress("brian@brian");
 
@@ -21,5 +22,7 @@ public class CustomerTest {
         cust2 = cust1;
         cust1.displayCustomerInfo();
         cust2.displayCustomerInfo();
+         */
+        System.out.println(cust1);
     }
 }
