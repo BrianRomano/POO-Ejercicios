@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/07-direccion/07-direccion.iml" filepath="$PROJECT_DIR$/07-direccion/07-direccion.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-customer/08-customer.iml" filepath="$PROJECT_DIR$/08-customer/08-customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/09-biblioteca/09-biblioteca.iml" filepath="$PROJECT_DIR$/09-biblioteca/09-biblioteca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-customer/10-customer.iml" filepath="$PROJECT_DIR$/10-customer/10-customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Ejercicios.iml" filepath="$PROJECT_DIR$/.idea/Ejercicios.iml" />
     </modules>
   </component>
