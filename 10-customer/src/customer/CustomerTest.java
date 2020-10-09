@@ -4,7 +4,7 @@ public class CustomerTest {
     public static void main(String[] args) {
         Customer cust1, cust2;
 
-        cust1 = new Customer(123, "Brian", "Romano");
+        cust1 = new Customer(123, "Brian", "Romano"); //<- Constructor
 
         /*cust1.customerId = 123;
         cust1.setName("Brian");
