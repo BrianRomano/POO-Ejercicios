@@ -72,7 +72,7 @@ public class PrestamoTest {
         socio_2.retirar(libro_2, "10/10/19");
         socio_2.retirar(libro_2, "10/10/19");
 
-        System.out.println(socio_1.toString());
+        System.out.println(socio_1);
         System.out.println("--------------");
         System.out.println(socio_2);
     }

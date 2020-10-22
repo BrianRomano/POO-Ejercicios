@@ -2,6 +2,7 @@ package cuentas;
 
 public class PruebaCuentas {
     public static void main(String[] args) {
+        //Objetos
         Cuentas cuentaUno = new Cuentas();
         Cuentas cuentaDos = new Cuentas();
 
