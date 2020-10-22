@@ -15,6 +15,7 @@ public class PrestamoTest {
         Socio socio_1 = new Socio("1", "Laura Sanchez", direccion_1, prestamo_1);
 
         //////////////////////////////////////////////////////////////////////////////
+
         Categoria categoria_2 = new Categoria("Fantasia", "F3");
 
         Libro libro_2 = new Libro("2", "El nombre del Viento", "Patrick Rothfuss", categoria_2);
@@ -31,22 +32,8 @@ public class PrestamoTest {
         socio_1.retirar(libro_1, "10/10/19");
         socio_2.retirar(libro_2, "10/10/19");
         socio_1.devolver("10/10/19");
-        socio_1.retirar(libro_2, "10/10/19");
-        socio_1.retirar(libro_1, "10/10/19");
-        socio_1.retirar(libro_2, "10/10/19");
-        socio_1.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
 
-        System.out.println(socio_1.toString());
+        System.out.println(socio_1);
         System.out.println("--------------");
         System.out.println(socio_2);
     }

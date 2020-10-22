@@ -1,7 +1,5 @@
 package sobrecarga;
 
-import javax.swing.plaf.synth.SynthScrollBarUI;
-
 public class OrderTest {
     public static void main(String[] args) {
         Order ordenUno = new Order();
@@ -19,7 +17,7 @@ public class OrderTest {
         shirtUno.cantidadStock = 100;
         totalCosto = ordenUno.addShirt(shirtUno);
         shirtUno.mostrar();
-        System.out.println("Total a pagar: $"+totalCosto);
+        System.out.println("\nTotal a pagar: $"+totalCosto);
         System.out.println("---------------------------");
 
         shirtDos.idShirt = 2;
@@ -29,7 +27,7 @@ public class OrderTest {
         shirtDos.cantidadStock = 150;
         totalCosto = ordenUno.addShirt(shirtDos);
         shirtDos.mostrar();
-        System.out.println("Total a pagar: $"+totalCosto);
+        System.out.println("\nTotal a pagar: $"+totalCosto);
         System.out.println("---------------------------");
 
         shirtTres.idShirt = 3;
@@ -39,7 +37,7 @@ public class OrderTest {
         shirtTres.cantidadStock = 200;
         totalCosto = ordenUno.addShirt(shirtTres);
         shirtTres.mostrar();
-        System.out.println("Total a pagar: $"+totalCosto);
+        System.out.println("\nTotal a pagar: $"+totalCosto);
         System.out.println("---------------------------");
     }
 }

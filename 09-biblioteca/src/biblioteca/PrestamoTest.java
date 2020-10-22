@@ -57,20 +57,6 @@ public class PrestamoTest {
         socio_1.retirar(libro_1, "10/10/19");
         socio_2.retirar(libro_2, "10/10/19");
         socio_1.devolver("10/10/19");
-        socio_1.retirar(libro_2, "10/10/19");
-        socio_1.retirar(libro_1, "10/10/19");
-        socio_1.retirar(libro_2, "10/10/19");
-        socio_1.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
-        socio_2.retirar(libro_2, "10/10/19");
 
         System.out.println(socio_1);
         System.out.println("--------------");
