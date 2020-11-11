@@ -20,11 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cbaa063-3914-4e7e-9c2f-da1977221f2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/16-constructores-encapsulamiento/src/dateThree/DateThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16-constructores-encapsulamiento/src/dateThree/DateThreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16-constructores-encapsulamiento/src/dateTwo/DateTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16-constructores-encapsulamiento/src/dateTwo/DateTwoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-constructores-encapsulamiento/src/dateThree2/DateThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-constructores-encapsulamiento/src/dateThree2/DateThreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16-constructores-encapsulamiento/src/dateThree/DateThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/16-constructores-encapsulamiento/src/dateThree/DateThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16-constructores-encapsulamiento/src/dateThree/DateThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/16-constructores-encapsulamiento/src/dateThree/DateThreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16-constructores-encapsulamiento/src/dateTwo/DateTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/16-constructores-encapsulamiento/src/dateTwo/DateTwoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +66,39 @@
       <recent name="C:\Users\Gama\Documents\Escuela Da Vinci\2do cuatrimestre\Programación orientada a objetos\Ejercicios\10-customer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DateTwoTest">
+  <component name="RunManager" selected="Application.DateThreeTest (1)">
     <configuration name="DateOneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dateOne.DateOneTest" />
       <module name="16-constructores-encapsulamiento" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dateOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateThreeTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dateThree2.DateThreeTest" />
+      <module name="16-constructores-encapsulamiento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dateThree2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateThreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dateThree.DateThreeTest" />
+      <module name="16-constructores-encapsulamiento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dateThree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,39 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sobrecarga.OrderTest" />
-      <module name="14-sobrecarga-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sobrecarga.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrestamoTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="biblioteca.PrestamoTest" />
-      <module name="13-biblioteca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="biblioteca.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateThreeTest (1)" />
+        <item itemvalue="Application.DateThreeTest" />
         <item itemvalue="Application.DateTwoTest" />
         <item itemvalue="Application.DateOneTest" />
         <item itemvalue="Application.Libreria" />
-        <item itemvalue="Application.OrderTest" />
-        <item itemvalue="Application.PrestamoTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -178,10 +179,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="450" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1603407429057">
+    <state x="450" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1605127190932">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="450" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1603407429057" />
+    <state x="450" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1605127190932" />
     <state x="363" y="106" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600568336990">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -190,22 +191,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="462" y="111" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1599779313278" />
-    <state width="1323" height="455" key="GridCell.Tab.0.bottom" timestamp="1605126439595">
+    <state width="1323" height="455" key="GridCell.Tab.0.bottom" timestamp="1605129500328">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="455" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605126439595" />
-    <state width="1323" height="455" key="GridCell.Tab.0.center" timestamp="1605126439595">
+    <state width="1323" height="455" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605129500328" />
+    <state width="1323" height="455" key="GridCell.Tab.0.center" timestamp="1605129500328">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="455" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605126439595" />
-    <state width="1323" height="455" key="GridCell.Tab.0.left" timestamp="1605126439595">
+    <state width="1323" height="455" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605129500328" />
+    <state width="1323" height="455" key="GridCell.Tab.0.left" timestamp="1605129500327">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="455" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605126439595" />
-    <state width="1323" height="455" key="GridCell.Tab.0.right" timestamp="1605126439595">
+    <state width="1323" height="455" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605129500327" />
+    <state width="1323" height="455" key="GridCell.Tab.0.right" timestamp="1605129500328">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="455" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605126439595" />
+    <state width="1323" height="455" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605129500328" />
     <state x="500" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601949168681">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
