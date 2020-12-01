@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cbaa063-3914-4e7e-9c2f-da1977221f2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-parcial/18-parcial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-parcial/src/parcial/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-parcial/src/parcial/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-parcial/src/parcial/Datos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-parcial/src/parcial/Direccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-parcial/src/parcial/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-parcial/src/parcial/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-parcial/src/parcial/EmpresaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-final/19-final.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -188,10 +180,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="450" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1605827974282" />
-    <state x="363" y="106" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600568336990">
+    <state x="363" y="106" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606850971038">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="363" y="106" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738@0.0.1366.738" timestamp="1600568336990" />
+    <state x="363" y="106" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738@0.0.1366.738" timestamp="1606850971038" />
     <state x="462" y="111" key="FileChooserDialogImpl" timestamp="1599779313278">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -216,10 +208,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="500" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1601949168680" />
-    <state x="110" y="0" key="new project wizard" timestamp="1605824725095">
+    <state x="110" y="0" key="new project wizard" timestamp="1606852138622">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="110" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1605824725095" />
+    <state x="110" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1606852138622" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1603407699993">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
