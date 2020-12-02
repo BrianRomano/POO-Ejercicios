@@ -4,6 +4,10 @@ public class Moto {
     private int cilindrada;
     private final int ruedas = 2;
 
+    public Moto(int cilindrada){
+        this.cilindrada = cilindrada;
+    }
+
     public int getCilindrada() {
         return cilindrada;
     }

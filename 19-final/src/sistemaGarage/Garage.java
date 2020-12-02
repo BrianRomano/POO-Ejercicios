@@ -35,8 +35,13 @@ public class Garage {
         return cantidadVehiculos;
     }
 
-    public int ingresarVehiculos(int idVehiculo, String marca, int kilometraje){
+    // Sobrecarga de método 'ingresarVehiculos'
+    public void ingresarVehiculos(int idVehiculo, String marca, int kilometraje, Auto auto){
         int i = cantidadVehiculos ++;
-        vehiculo[i] = new Vehiculo(idVehiculo, marca, kilometraje);
+        vehiculo[i] = new Vehiculo(idVehiculo, marca, kilometraje, auto);
+    }
+    public void ingresarVehiculos(int idVehiculo, String marca, int kilometraje, Moto moto){
+        int i = cantidadVehiculos ++;
+        vehiculo[i] = new Vehiculo(idVehiculo, marca, kilometraje, moto);
     }
 }

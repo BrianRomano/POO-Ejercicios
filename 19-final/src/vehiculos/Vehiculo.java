@@ -7,10 +7,21 @@ public class Vehiculo {
     private Auto auto;
     private Moto moto;
 
-    public Vehiculo(int idVehiculo, String marca, int kilometraje){
+    // Constructor por defecto
+    public Vehiculo(){}
+
+    // Sobrecarga de constructor 'Vehiculo'
+    public Vehiculo(int idVehiculo, String marca, int kilometraje, Auto auto){
         this.idVehiculo = idVehiculo;
         this.marca = marca;
         this.kilometraje = kilometraje;
+        this.auto = auto;
+    }
+    public Vehiculo(int idVehiculo, String marca, int kilometraje, Moto moto){
+        this.idVehiculo = idVehiculo;
+        this.marca = marca;
+        this.kilometraje = kilometraje;
+        this.moto = moto;
     }
 
     public int getIdVehiculo() {

@@ -21,11 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4cbaa063-3914-4e7e-9c2f-da1977221f2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19-final/src/SistemaGarage/Garage.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-final/src/sistemaGarage/Garage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19-final/src/SistemaGarage/GarageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-final/src/sistemaGarage/GarageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19-final/src/Vehiculos/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-final/src/vehiculos/Auto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19-final/src/Vehiculos/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-final/src/vehiculos/Moto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19-final/src/Vehiculos/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-final/src/vehiculos/Vehiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-final/src/sistemaGarage/Garage.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-final/src/sistemaGarage/Garage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-final/src/sistemaGarage/GarageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-final/src/sistemaGarage/GarageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-final/src/vehiculos/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-final/src/vehiculos/Moto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-final/src/vehiculos/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-final/src/vehiculos/Vehiculo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
