@@ -23,6 +23,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/19-final/src/sistemaGarage/Garage.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-final/src/sistemaGarage/Garage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/19-final/src/sistemaGarage/GarageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-final/src/sistemaGarage/GarageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-final/src/vehiculos/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-final/src/vehiculos/Auto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/19-final/src/vehiculos/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-final/src/vehiculos/Moto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/19-final/src/vehiculos/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-final/src/vehiculos/Vehiculo.java" afterDir="false" />
     </list>
@@ -65,7 +66,7 @@
       <recent name="C:\Users\Gama\Documents\Escuela Da Vinci\2do cuatrimestre\Programación orientada a objetos\Ejercicios\10-customer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmpresaTest">
+  <component name="RunManager" selected="Application.GarageTest">
     <configuration name="CuentaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cuenta.CuentaTest" />
       <module name="17-proyecto-bancario" />
@@ -85,19 +86,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dateFour.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateThreeTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dateThree2.DateThreeTest" />
-      <module name="16-constructores-encapsulamiento" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dateThree2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,6 +119,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GarageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sistemaGarage.GarageTest" />
+      <module name="19-final" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sistemaGarage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RectangleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rectangulo.RectangleTest" />
       <module name="16-constructores-encapsulamiento" />
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GarageTest" />
         <item itemvalue="Application.EmpresaTest" />
         <item itemvalue="Application.CuentaTest" />
         <item itemvalue="Application.RectangleTest" />
         <item itemvalue="Application.DateFourTest" />
-        <item itemvalue="Application.DateThreeTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -178,10 +179,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="450" y="0" width="465" height="738" key="#com.intellij.ide.util.MemberChooser" timestamp="1606861628794">
+    <state x="450" y="0" width="465" height="738" key="#com.intellij.ide.util.MemberChooser" timestamp="1606957794035">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="450" y="0" width="465" height="738" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1606861628794" />
+    <state x="450" y="0" width="465" height="738" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1606957794035" />
     <state x="363" y="106" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606850971038">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -190,22 +191,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="462" y="111" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1599779313278" />
-    <state width="1323" height="267" key="GridCell.Tab.0.bottom" timestamp="1605829176639">
+    <state width="1323" height="403" key="GridCell.Tab.0.bottom" timestamp="1606959353384">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="267" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605829176639" />
-    <state width="1323" height="267" key="GridCell.Tab.0.center" timestamp="1605829176639">
+    <state width="1323" height="403" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1606959353384" />
+    <state width="1323" height="403" key="GridCell.Tab.0.center" timestamp="1606959353384">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="267" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605829176639" />
-    <state width="1323" height="267" key="GridCell.Tab.0.left" timestamp="1605829176638">
+    <state width="1323" height="403" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1606959353384" />
+    <state width="1323" height="403" key="GridCell.Tab.0.left" timestamp="1606959353384">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="267" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605829176638" />
-    <state width="1323" height="267" key="GridCell.Tab.0.right" timestamp="1605829176639">
+    <state width="1323" height="403" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1606959353384" />
+    <state width="1323" height="403" key="GridCell.Tab.0.right" timestamp="1606959353384">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="267" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605829176639" />
+    <state width="1323" height="403" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1606959353384" />
     <state x="500" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601949168681">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

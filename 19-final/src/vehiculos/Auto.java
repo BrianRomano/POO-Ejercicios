@@ -2,7 +2,6 @@ package vehiculos;
 
 public class Auto {
     private int numeroPuertas;
-    private final int ruedas = 4;
 
     public Auto(int numeroPuertas){
         this.numeroPuertas = numeroPuertas;
@@ -12,7 +11,7 @@ public class Auto {
         return numeroPuertas;
     }
 
-    public int getRuedas() {
-        return ruedas;
+    public void setNumeroPuertas(int numeroPuertas) {
+        this.numeroPuertas = numeroPuertas;
     }
 }

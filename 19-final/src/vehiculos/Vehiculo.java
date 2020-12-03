@@ -24,31 +24,44 @@ public class Vehiculo {
         this.moto = moto;
     }
 
+    public void setIdVehiculo(int idVehiculo) {
+        this.idVehiculo = idVehiculo;
+    }
+
+
     public int getIdVehiculo() {
         return idVehiculo;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
     }
 
     public String getMarca() {
         return marca;
     }
 
-    public int getKilometraje() {
-        return kilometraje;
+    public void setKilometraje(int kilometraje) {
+        this.kilometraje = kilometraje;
     }
 
-    public Auto getAuto() {
-        return auto;
+    public int getKilometraje() {
+        return kilometraje;
     }
 
     public void setAuto(Auto auto) {
         this.auto = auto;
     }
 
-    public Moto getMoto() {
-        return moto;
+    public Auto getAuto() {
+        return auto;
     }
 
     public void setMoto(Moto moto) {
         this.moto = moto;
+    }
+
+    public Moto getMoto() {
+        return moto;
     }
 }

@@ -29,5 +29,13 @@ public class GarageTest {
         garage.ingresarVehiculos(741, "Yamaha", 5000, motoDos);
         Moto motoTres = new Moto(500);
         garage.ingresarVehiculos(852, "Kawasaki", 1000, motoTres);
+
+        // Mostrar
+        System.out.println(garage);
+        for(int i = 0; i < garage.getCantidadVehiculos(); i++){
+            Vehiculo vehiculo = garage.getVehiculo(i);
+            System.out.println(("\nId Vehiculo: "+vehiculo.getIdVehiculo()+"\nMarca: "+vehiculo.getMarca()+"\nKilometraje: "+
+                    vehiculo.getKilometraje()+"\nAuto: "+"\nMoto: "));
+        }
     }
 }
