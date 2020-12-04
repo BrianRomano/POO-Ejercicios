@@ -34,7 +34,7 @@ public class GarageTest {
         Moto motoCinco = new Moto(250);
         garage.ingresarVehiculos(975, "Benelli", 20000, motoCinco);
 
-        // Retiro de auto y moto
+        //Retiro de auto y moto
         garage.retirarVehiculos(autoSiete);
         garage.retirarVehiculos(motoCinco);
 
