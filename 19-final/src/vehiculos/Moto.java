@@ -11,7 +11,8 @@ public class Moto {
         return cilindrada;
     }
 
-    public void setCilindrada(int cilindrada) {
-        this.cilindrada = cilindrada;
+    @Override
+    public String toString() {
+        return "Cilindrada["+cilindrada+"cv]";
     }
 }

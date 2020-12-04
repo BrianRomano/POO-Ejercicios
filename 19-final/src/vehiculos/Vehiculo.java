@@ -24,25 +24,12 @@ public class Vehiculo {
         this.moto = moto;
     }
 
-    public void setIdVehiculo(int idVehiculo) {
-        this.idVehiculo = idVehiculo;
-    }
-
-
     public int getIdVehiculo() {
         return idVehiculo;
     }
 
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
     public String getMarca() {
         return marca;
-    }
-
-    public void setKilometraje(int kilometraje) {
-        this.kilometraje = kilometraje;
     }
 
     public int getKilometraje() {
@@ -63,5 +50,11 @@ public class Vehiculo {
 
     public Moto getMoto() {
         return moto;
+    }
+
+    @Override
+    public String toString() {
+        return "\n    Auto: "+auto+
+                "\n    Moto: "+moto;
     }
 }

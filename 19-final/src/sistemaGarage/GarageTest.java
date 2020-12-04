@@ -4,7 +4,7 @@ import vehiculos.*;
 
 public class GarageTest {
     public static void main(String[] args) {
-        Garage garage = new Garage(100, 10);
+        Garage garage = new Garage(100, 12);
 
         // Ingreso de vehiculos - Autos
         Auto autoUno = new Auto(5);
@@ -29,13 +29,36 @@ public class GarageTest {
         garage.ingresarVehiculos(741, "Yamaha", 5000, motoDos);
         Moto motoTres = new Moto(500);
         garage.ingresarVehiculos(852, "Kawasaki", 1000, motoTres);
+        Moto motoCuatro = new Moto(125);
+        garage.ingresarVehiculos(753, "Zanella", 5000, motoCuatro);
+        Moto motoCinco = new Moto(250);
+        garage.ingresarVehiculos(975, "Benelli", 20000, motoCinco);
+
+        // Retiro de auto y moto
+        garage.retirarVehiculos(autoSiete);
+        garage.retirarVehiculos(motoCinco);
+
+        // Total Promedio Km
+        int totalKm = 0;
 
         // Mostrar
         System.out.println(garage);
+        System.out.println("\n------------- Ingresos -------------");
+
         for(int i = 0; i < garage.getCantidadVehiculos(); i++){
             Vehiculo vehiculo = garage.getVehiculo(i);
             System.out.println(("\nId Vehiculo: "+vehiculo.getIdVehiculo()+"\nMarca: "+vehiculo.getMarca()+"\nKilometraje: "+
-                    vehiculo.getKilometraje()+"\nAuto: "+"\nMoto: "));
+                    vehiculo.getKilometraje()+"\nTipo de vehiculo: "+vehiculo));
+            totalKm += vehiculo.getKilometraje();
         }
+
+        System.out.println("\n------------ Disponibile ------------");
+        System.out.println("\nEspacio disponible: "+ garage.plazasDisponibles());
+        System.out.println("\n------------ Promedio KM ------------");
+        int promedioKm = totalKm/ garage.getCantidadVehiculos();
+        System.out.println("\nPromedio kilometraje: "+promedioKm+"Km");
+        System.out.println("\n---------- Cambio de ruedas ---------");
+        System.out.println("\nCosto cambio de ruedas: $"+ garage.calcularCosto());
+        System.out.println("\n-------------------------------------");
     }
 }

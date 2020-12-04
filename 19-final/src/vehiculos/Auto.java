@@ -11,7 +11,7 @@ public class Auto {
         return numeroPuertas;
     }
 
-    public void setNumeroPuertas(int numeroPuertas) {
-        this.numeroPuertas = numeroPuertas;
+    public String toString() {
+        return "Numero de Puertas["+numeroPuertas+"]";
     }
 }

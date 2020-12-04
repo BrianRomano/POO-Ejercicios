@@ -11,12 +11,11 @@ public class Garage {
     private int cantidadVehiculos;
     private int cantidadRuedas = 0;
     private double costoCambio = 0;
-    private double promedioKm = 0;
 
     public Garage(double precioRueda, int capacidadMaxima) {
         this.precioRueda = precioRueda;
         this.capacidadMaxima = capacidadMaxima;
-        vehiculo = new Vehiculo[10];
+        vehiculo = new Vehiculo[100];
         cantidadVehiculos = 0;
     }
 
@@ -65,11 +64,13 @@ public class Garage {
     public void retirarVehiculos(Auto auto){
         cantidadVehiculos--;
         cantidadRuedas -= 4;
+        System.out.println("------ Se ha retirado un auto -------");
     }
 
     public void retirarVehiculos(Moto moto){
         cantidadVehiculos--;
         cantidadRuedas -= 2;
+        System.out.println("------ Se ha retirado una moto ------");
     }
 
     public int plazasDisponibles() {
@@ -77,7 +78,9 @@ public class Garage {
     }
 
     public void aviso() {
-        System.out.println("El garage esta completo");
+        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        System.out.println("\nNo hay espacio disponible en el Garage");
+        System.out.println("\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
     }
 
     public double calcularCosto() {
@@ -85,17 +88,11 @@ public class Garage {
         return costoCambio;
     }
 
-    public double promedioKilometraje(){
-        Vehiculo vehiculo = new Vehiculo();
-        promedioKm = vehiculo.getKilometraje()/cantidadVehiculos;
-        return promedioKm;
-    }
-
     @Override
     public String toString() {
-        return "--------------- Garage ---------------" +
-                "\nPrecio cambio de rueda: $" + precioRueda +
-                "\nCapacidad Maxima: " + capacidadMaxima +
-                "\n--------------------------------------";
+        return "\n-------------- Garage --------------" +
+                "\n\nPrecio cambio de rueda: $" + precioRueda +
+                "\nCapacidad Maxima: " + capacidadMaxima+
+                "\nCantidad de autos: "+cantidadVehiculos;
     }
 }
