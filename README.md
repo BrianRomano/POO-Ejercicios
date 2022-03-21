@@ -1,2 +1,2 @@
 # programacionOrientadaObjetos-ejercicios
-Ejercicios de practica realizados en la materia: Programación orientada a objetos - 1er año | 2do cuatrimestre. Practica de abstracción, encapsulamiento, constructores y modificadores. 
+Programación Orientada a Objetos [1er año | 2do cuatrimestre] - Abstracción, encapsulamiento, constructores, sobrecarga y modificadores.
